@@ -1,0 +1,44 @@
+.reviews {
+    
+    .reviews-item {
+        display: flex;
+        justify-content: space-between;
+        min-height: 273px;
+        border-bottom: 2px solid #f6f6f6;
+        padding: 0 62px 50px 0;
+        &__photo {
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-top: 57px;
+                max-width: 169px;
+                height: 169px;
+                border-radius: 100%;
+            }
+        }
+        &__content {
+            margin-left: 62px;
+            margin-top: 53px;
+        }
+        &__name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0d0d0d;
+            
+        }
+        &__marathon {
+            margin-top: 3px;
+            font-size: 12px;
+            font-weight: 300;
+            color: #646464;
+            
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 15px;
+            line-height: 1.2;
+            font-weight: 300;
+            color: #0d0d0d;
+        }
+    }
+}
